@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    float x, y;
+
+    // input
+    scanf("%d %d", &a, &b);
+    scanf("%f %f", &x, &y);
+
+    // integer operations
+    printf("%d %d\n", a + b, a - b);
+
+    // float operations
+    printf("%.1f %.1f", x + y, x - y);
+
+    return 0;
+}
